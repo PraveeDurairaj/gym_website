@@ -1,0 +1,22 @@
+.home_banner_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.home_banner_image_Wrapper {
+    width: 100%;
+    background-color: var(--image-background);
+    border-radius: var(--radius-2);
+    height: 400px;
+}
+
+@media screen and (max-width:991px) {
+    .home_banner_grid {
+        grid-template-columns: 100%;
+    }
+    .home_banner_image_Wrapper{
+        height: 300px;
+    }
+}

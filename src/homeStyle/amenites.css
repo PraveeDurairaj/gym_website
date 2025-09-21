@@ -1,0 +1,25 @@
+.amenites_card_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.amenites_card {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    background: #faff0012;
+    padding: 16px;
+    border-radius: var(--radius-2);
+}
+
+.amenites_card svg {
+    color: var(--theme-primary);
+    flex-shrink: 0;
+}
+
+@media screen and (max-width:767px) {
+    .amenites_card_grid {
+        grid-template-columns: 100%;
+    }
+}
