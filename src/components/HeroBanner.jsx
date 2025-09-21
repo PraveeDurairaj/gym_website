@@ -8,7 +8,7 @@ const HeroBanner = ({ containerClass, content }) => {
                 <div className='home_banner_grid'>
                     <div>
                         {content?.title && <h1 className='title_h1'>{content?.title}</h1>}
-                        {content?.description && <p className='description_varient_1 mt_2'>{content?.description}</p>}
+                        {content?.description && <p className='description_variant_1 mt_2'>{content?.description}</p>}
                         <div className='flex_button_wrapper mt_3'>
                             <Button buttonText={content?.primaryButton} />
                             <Button buttonText={content?.secoundryButton} isSecoundryButton />

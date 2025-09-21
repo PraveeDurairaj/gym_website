@@ -18,7 +18,7 @@ const About = ({ containerClass, content }) => {
                 <div className='about_grid'>
                     <div>
                         {content?.title && <h2 className='title_h2'>{content?.title}</h2>}
-                        {content?.description && <p className='description_varient_1 mt_2'>{content?.description}</p>}
+                        {content?.description && <p className='description_variant_1 mt_2'>{content?.description}</p>}
                     </div>
                     <Swiper
                         navigation={true}

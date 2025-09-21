@@ -6,14 +6,14 @@ const Amenities = ({ containerClass, content }) => {
             <div className='home_container'>
                 {content?.title && <h2 className='title_h2 title_h2_space_bottom'>{content?.title}</h2>}
                 <div className='amenites_card_grid'>
-                    {content?.aminitesCardData?.map((data) => {
+                    {content?.aminitesCardData?.map((data,index) => {
                         const Icon = data?.icon;
                         return (
-                            <div className='amenites_card'>
+                            <div className='amenites_card' key={index}>
                                 <Icon />
                                 <div>
-                                    <h3 className='description_varient_1 font_600  mb_1'>{data?.cardTitle}</h3>
-                                    <p className='description_varient_2'>{data?.cardDescription}</p>
+                                    <h3 className='description_variant_1 font_600  mb_1'>{data?.cardTitle}</h3>
+                                    <p className='description_variant_2'>{data?.cardDescription}</p>
                                 </div>
                             </div>
                         )

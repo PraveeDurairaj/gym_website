@@ -19,7 +19,7 @@ export const EquipmentIcon = ({ className }) => {
 
 export const MesurementIcon = ({ className }) => {
     return (
-        <svg className={className} fill="currentColor" height="24px" width="24px" version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-871 1129 256 256" xml:space="preserve" data-iconid="ruler-measure-measurement" data-svgname="Ruler measure measurement">
+        <svg className={className} fill="currentColor" height="24px" width="24px" version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="-871 1129 256 256" xmlSpace="preserve" data-iconid="ruler-measure-measurement" data-svgname="Ruler measure measurement">
             <path d="M-871,1185.5l199.2,199.7l56.8-56.7l-199.2-199.7L-871,1185.5z M-627,1328.5l-36.3,36.3l-187.3-187.7l36.4-36.2l25.4,25.4
 	l-11.2,11.2l6,6l11.2-11.2l12,12l-17.2,17.2l6,6l17.2-17.2l12,12l-11.2,11.2l6,6l11.2-11.2l12,12l-17.2,17.2l6,6l17.2-17.2l12,12
 	l-11.2,11.2l6,6l11.2-11.2l12,12l-17.2,17.2l6,6l17.2-17.2l12,12l-11.2,11.2l6,6l11.2-11.2l12,12l-17.2,17.2l6,6l17.2-17.2l12,12
@@ -32,11 +32,11 @@ export const MesurementIcon = ({ className }) => {
 
 export const FitnessIcon = ({ className }) => {
     return (
-        <svg className={className} fill="currentColor" height="24px" width="24px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" data-iconid="fitness-pictogram-1" data-svgname="Fitness pictogram 1">
+        <svg className={className} fill="currentColor" height="24px" width="24px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xmlSpace="preserve" data-iconid="fitness-pictogram-1" data-svgname="Fitness pictogram 1">
             <g>
-                <path class="st0" d="M188.858,102.634c26.588,10.645,56.793-2.287,67.428-28.874C266.941,47.171,254,16.966,227.411,6.33
+                <path className="st0" d="M188.858,102.634c26.588,10.645,56.793-2.287,67.428-28.874C266.941,47.171,254,16.966,227.411,6.33
 		c-26.597-10.654-56.782,2.278-67.438,28.876C149.339,61.794,162.251,91.98,188.858,102.634z"></path>
-                <path class="st0" d="M502.664,130.434L433.106,13.819c-5.298-9.872-16.011-14.946-26.5-13.607c-0.245,0.02-0.489,0.078-0.723,0.098
+                <path className="st0" d="M502.664,130.434L433.106,13.819c-5.298-9.872-16.011-14.946-26.5-13.607c-0.245,0.02-0.489,0.078-0.723,0.098
 		c-0.773,0.127-1.555,0.294-2.326,0.479c-0.46,0.127-0.929,0.225-1.378,0.371c-1.604,0.5-3.177,1.144-4.702,1.965
 		c-2.835,1.526-6.031,3.618-8.045,5.905l-76.508,59.256l-55.668,42.775c-23.382,15.122-41.496,14.389-62.58,9.56L30.582,74.052
 		C19.918,70.836,8.647,76.877,5.441,87.551c-3.206,10.664,2.834,21.935,13.509,25.151l156.39,60.624
