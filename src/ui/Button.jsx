@@ -5,8 +5,8 @@ const Button = ({ buttonText, buttonType, buttonStyle, navigationPath, buttonAct
     return (
         <>
             {buttonType == 'link' ?
-                <a href={navigationPath} className={cx(buttonStyle, isSecoundryButton ? 'secoundry_button' : 'primary_button')} target={target}>{buttonText}</a> :
-                <button className={cx(buttonStyle, isSecoundryButton ? 'secoundry_button' : 'primary_button')} onClick={buttonAction}>{buttonText} </button>}
+                <a href={navigationPath} className={cx(buttonStyle, isSecoundryButton ? 'secondary_button' : 'primary_button')} target={target}>{buttonText}</a> :
+                <button className={cx(buttonStyle, isSecoundryButton ? 'secondary_button' : 'primary_button')} onClick={buttonAction}>{buttonText} </button>}
         </>
     )
 }

@@ -2,15 +2,14 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import { Navigation } from 'swiper/modules';
-import cx from 'classnames';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
 import aboutImage1 from '../../public/aboutImage1.webp';
 import aboutImage2 from '../../public/aboutImage2.webp';
 import aboutImage3 from '../../public/aboutImage3.webp';
 import aboutImage4 from '../../public/aboutImage4.webp';
+import cx from 'classnames';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 const About = ({ containerClass, content }) => {
     return (

@@ -1,0 +1,37 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+
+  /* sizing */
+  --section-space: 100px;
+  --container-width: 1280px;
+  --radius-1: 6px;
+  --radius-2: 12px;
+  --radius-3: 18px;
+  --radius-4: 24px;
+  --radius-5: 30px;
+
+  /* color code */
+  --theme-primary: #FAFF00;
+  --primary-foreground: #FFFFFF;
+  --secondary-foreground: #000000;
+  --primary-background: #000000;
+
+  --image-background: #f7eeee;
+}
+
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--primary-background);
+  color: var(--primary-foreground);
+}
+
+@media screen and (max-width:991px) {
+
+  :root {
+    --section-space: 60px;
+  }
+}

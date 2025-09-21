@@ -5,7 +5,7 @@
 
 .about_container .title_h2,
 .about_container .description_varient_1 {
-    color: var(--secoundry-foreground);
+    color: var(--secondary-foreground);
 }
 
 .about_grid {

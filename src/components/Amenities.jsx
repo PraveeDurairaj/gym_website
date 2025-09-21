@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Amenites = ({ containerClass, content }) => {
+const Amenities = ({ containerClass, content }) => {
     return (
         <section className={containerClass}>
             <div className='home_container'>
@@ -25,4 +25,4 @@ const Amenites = ({ containerClass, content }) => {
     )
 }
 
-export default Amenites
+export default Amenities

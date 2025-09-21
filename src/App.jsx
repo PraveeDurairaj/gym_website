@@ -1,13 +1,12 @@
-import { useState } from 'react';
+import HeroBanner from './components/HeroBanner';
+import Amenities from './components/Amenities';
+import About from './components/About';
 import { staticContent } from './helper/getStaticData';
-import HeroBanner from './compnents/HeroBanner';
-import Amenites from './compnents/Amenites';
-import About from './compnents/About';
 
 
 
 function App() {
-  const { bannerData, amenitesData, aboutData } = staticContent;
+  const { bannerData, amenitiesData, aboutData } = staticContent;
 
   return (
     <>
@@ -15,9 +14,9 @@ function App() {
         containerClass={'section_padding_top'}
         content={bannerData}
       />
-      <Amenites
+      <Amenities
         containerClass={'section_margin_top section_margin_bottom'}
-        content={amenitesData}
+        content={amenitiesData}
       />
       <About
         containerClass={'section_padding_top section_padding_bottom'}

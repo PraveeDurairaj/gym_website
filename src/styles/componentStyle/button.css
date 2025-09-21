@@ -1,0 +1,37 @@
+.flex_button_wrapper {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.primary_button {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--theme-primary);
+    background: var(--theme-primary);
+    color: var(--secondary-foreground);
+    padding: 12px 16px;
+    border-radius: var(--radius-5);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondary_button {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--theme-primary);
+    background: var(--primary-background);
+    color: var(--theme-primary);
+    padding: 12px 16px;
+    border-radius: var(--radius-5);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}

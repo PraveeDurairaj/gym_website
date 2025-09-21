@@ -7,7 +7,7 @@ export const staticContent = {
         primaryButton: 'Start Free Trial',
         secoundryButton: 'View Plans'
     },
-    amenitesData: {
+    amenitiesData: {
         title: 'Reasons to join',
         aminitesCardData: [
             {
