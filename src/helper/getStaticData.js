@@ -36,6 +36,53 @@ export const staticContent = {
     aboutData: {
         title: 'About Our Gym',
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
+        description2: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
     },
 
+    pricingData: {
+        title: 'Our Transparent Pricing',
+        description: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated',
+        cardData: [
+            {
+                packageType: '',
+                price: '',
+                offerPrice: '',
+                planPeriod: '',
+                planCovertFeatures: [
+
+                ],
+                planNotCovertFeatures: [
+
+                ],
+                ctaButton: ''
+            },
+            {
+                packageType: '',
+                price: '',
+                offerPrice: '',
+                planPeriod: '',
+                planCovertFeatures: [
+
+                ],
+                planNotCovertFeatures: [
+
+                ],
+                ctaButton: '',
+                isProPlan: true
+            },
+            {
+                packageType: '',
+                price: '',
+                offerPrice: '',
+                planPeriod: '',
+                planCovertFeatures: [
+
+                ],
+                planNotCovertFeatures: [
+
+                ],
+                ctaButton: ''
+            },
+        ]
+    }
 }

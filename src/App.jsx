@@ -1,12 +1,13 @@
 import HeroBanner from './components/HeroBanner';
 import Amenities from './components/Amenities';
 import About from './components/About';
+import PricingPlans from './components/PricingPlans';
 import { staticContent } from './helper/getStaticData';
 
 
 
 function App() {
-  const { bannerData, amenitiesData, aboutData } = staticContent;
+  const { bannerData, amenitiesData, aboutData, pricingData } = staticContent;
 
   return (
     <>
@@ -21,6 +22,10 @@ function App() {
       <About
         containerClass={'section_padding_top section_padding_bottom'}
         content={aboutData}
+      />
+      <PricingPlans
+        containerClass={'section_padding_top section_padding_bottom'}
+        content={pricingData}
       />
 
     </>
