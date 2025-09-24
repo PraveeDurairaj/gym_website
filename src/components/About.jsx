@@ -1,15 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
-import aboutImage1 from '../../public/aboutImage1.webp';
-import aboutImage2 from '../../public/aboutImage2.webp';
-import aboutImage3 from '../../public/aboutImage3.webp';
-import aboutImage4 from '../../public/aboutImage4.webp';
 import cx from 'classnames';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { about1, about2, about3, about4 } from '../helper/getStaticImages';
 
 const About = ({ containerClass, content }) => {
     return (
@@ -28,7 +25,7 @@ const About = ({ containerClass, content }) => {
                         pagination={{ clickable: true }}
                         className="custom_about_swiper"
                     >
-                        {[aboutImage1, aboutImage2, aboutImage3, aboutImage4]?.map((data, index) => {
+                        {[about1, about2, about3, about4]?.map((data, index) => {
                             return (
                                 <SwiperSlide className='slide' key={index}>
                                     <img src={data} alt='about image' />

@@ -5,7 +5,7 @@ import { CloseIcon, TickIcon } from '../assets/SvgComponents';
 
 const PricingPlans = ({ containerClass, content }) => {
     return (
-        <section className={cx(containerClass, '')}>
+        <section className={cx(containerClass)} id='pricing'>
             <div className='home_container'>
                 <div className='text_center'>
                     {content?.title && <h2 className='title_h2'>{content?.title}</h2>}

@@ -6,7 +6,7 @@
 }
 
 .pricing_card {
-    border: 1px solid #d7d6e547;
+    border: 1px solid var(--primary-border);
     border-radius: 24px;
     padding: 30px;
     position: relative;
@@ -16,7 +16,7 @@
 
 .pricing_card:after {
     backdrop-filter: blur(24px);
-    background: var(--security-card-bg);
+    background: var(--pricing-card-bg);
     border-radius: inherit;
     content: "";
     inset: 0;
@@ -25,7 +25,7 @@
 }
 
 .pricing_plan_type {
-    border: 1px solid #d7d6e547;
+    border: 1px solid var(--primary-border);
     display: inline-block;
     padding: 4px 8px;
     border-radius: 8px;
@@ -48,7 +48,7 @@
 
 .feature_grid_wrapper {
     display: grid;
-    gap: 6px;
+    gap: 12px;
 }
 
 .features_item_flex {
@@ -65,4 +65,14 @@
 .is_pro_pricing_card {
     border: 1px solid var(--theme-primary);
     border-width: 12px 1px 1px 1px;
+}
+
+@media screen and (max-width:991px) {
+    .pricing_flex_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .pricing_card {
+        padding: 20px;
+    }
 }

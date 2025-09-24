@@ -5,7 +5,9 @@ export const staticContent = {
         title: 'Your Local Fitness Destination for Strength & Energy',
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
         primaryButton: 'Start Free Trial',
-        secoundryButton: 'View Plans'
+        secondaryButton: 'View Plans',
+        secondaryButtonLink:'#pricing'
+
     },
     amenitiesData: {
         title: 'Reasons to join',
@@ -41,57 +43,57 @@ export const staticContent = {
 
     pricingData: {
         title: 'Our Transparent Pricing',
-        description: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated',
+        description: 'Choose the perfect plan to access top-rated fitness classes and modern amenities',
         cardData: [
             {
-                packageType: 'basic',
+                packageType: 'basic 🏋️‍♂️',
                 price: '$30',
                 offerPrice: '$19',
                 planPeriod: 'per month',
                 planCovertFeatures: [
-                    'amenities 1',
-                    'amenities 1',
-                    'amenities 1'
+                    'Access to amenities',
+                    'Unlimited group classes',
+                    'Full gym access'
                 ],
                 planNotCovertFeatures: [
-                    'no cover amenities 1',
-                    'no cover amenities 1',
-                    'no cover amenities 1'
+                    'Premium equipment access',
+                    'Towel & locker service',
+                    'Guest pass privileges'
                 ],
                 ctaButton: 'Get Start'
             },
             {
-                packageType: 'basic',
-                price: '$30',
-                offerPrice: '$19',
+                packageType: 'Premium 💎',
+                price: '$80',
+                offerPrice: '$49',
                 planPeriod: 'per month',
                 planCovertFeatures: [
-                    'amenities 1',
-                    'amenities 1',
-                    'amenities 1'
+                    'Access to amenities',
+                    'Unlimited group classes',
+                    'Full gym access'
                 ],
                 planNotCovertFeatures: [
-                    'no cover amenities 1',
-                    'no cover amenities 1',
-                    'no cover amenities 1'
+                    'Premium equipment access',
+                    'Towel & locker service',
+                    'Guest pass privileges'
                 ],
                 ctaButton: 'Get Start',
                 isProPlan: true
             },
             {
-                packageType: 'basic',
-                price: '$30',
-                offerPrice: '$19',
+                packageType: 'Standard 🚀',
+                price: '$50',
+                offerPrice: '$29',
                 planPeriod: 'per month',
                 planCovertFeatures: [
-                    'amenities 1',
-                    'amenities 1',
-                    'amenities 1'
+                    'Access to amenities',
+                    'Unlimited group classes',
+                    'Full gym access'
                 ],
                 planNotCovertFeatures: [
-                    'no cover amenities 1',
-                    'no cover amenities 1',
-                    'no cover amenities 1'
+                    'Premium equipment access',
+                    'Towel & locker service',
+                    'Guest pass privileges'
                 ],
                 ctaButton: 'Get Start'
             },
