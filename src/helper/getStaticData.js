@@ -44,44 +44,56 @@ export const staticContent = {
         description: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated',
         cardData: [
             {
-                packageType: '',
-                price: '',
-                offerPrice: '',
-                planPeriod: '',
+                packageType: 'basic',
+                price: '$30',
+                offerPrice: '$19',
+                planPeriod: 'per month',
                 planCovertFeatures: [
-
+                    'amenities 1',
+                    'amenities 1',
+                    'amenities 1'
                 ],
                 planNotCovertFeatures: [
-
+                    'no cover amenities 1',
+                    'no cover amenities 1',
+                    'no cover amenities 1'
                 ],
-                ctaButton: ''
+                ctaButton: 'Get Start'
             },
             {
-                packageType: '',
-                price: '',
-                offerPrice: '',
-                planPeriod: '',
+                packageType: 'basic',
+                price: '$30',
+                offerPrice: '$19',
+                planPeriod: 'per month',
                 planCovertFeatures: [
-
+                    'amenities 1',
+                    'amenities 1',
+                    'amenities 1'
                 ],
                 planNotCovertFeatures: [
-
+                    'no cover amenities 1',
+                    'no cover amenities 1',
+                    'no cover amenities 1'
                 ],
-                ctaButton: '',
+                ctaButton: 'Get Start',
                 isProPlan: true
             },
             {
-                packageType: '',
-                price: '',
-                offerPrice: '',
-                planPeriod: '',
+                packageType: 'basic',
+                price: '$30',
+                offerPrice: '$19',
+                planPeriod: 'per month',
                 planCovertFeatures: [
-
+                    'amenities 1',
+                    'amenities 1',
+                    'amenities 1'
                 ],
                 planNotCovertFeatures: [
-
+                    'no cover amenities 1',
+                    'no cover amenities 1',
+                    'no cover amenities 1'
                 ],
-                ctaButton: ''
+                ctaButton: 'Get Start'
             },
         ]
     }

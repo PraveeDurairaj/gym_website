@@ -16,13 +16,16 @@
   --secondary-foreground: #000000;
   --primary-background: #000000;
   --secondary-background: #ffffff;
+  --territory-foreground:#9c9c9c;
 
   --image-background: #f7eeee;
+  --security-card-bg: linear-gradient(107.23deg, hsla(0, 0%, 94%, .1) 1.45%, hsla(0, 0%, 100%, .03) 102.38%);
 }
 
 * {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+   box-sizing: border-box;
 }
 
 body {

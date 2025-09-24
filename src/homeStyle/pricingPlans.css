@@ -1,0 +1,68 @@
+.pricing_flex_wrapper {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.pricing_card {
+    border: 1px solid #d7d6e547;
+    border-radius: 24px;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+}
+
+.pricing_card:after {
+    backdrop-filter: blur(24px);
+    background: var(--security-card-bg);
+    border-radius: inherit;
+    content: "";
+    inset: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.pricing_plan_type {
+    border: 1px solid #d7d6e547;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.mrp_price {
+    color: var(--territory-foreground);
+    text-decoration: line-through;
+}
+
+.offer_price {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.plan_period {
+    color: var(--territory-foreground);
+}
+
+.feature_grid_wrapper {
+    display: grid;
+    gap: 6px;
+}
+
+.features_item_flex {
+    display: flex;
+    gap: 4px;
+    color: var(--territory-foreground);
+}
+
+.pricing_line {
+    border-bottom: 1px dashed var(--territory-foreground);
+    margin: 24px 0;
+}
+
+.is_pro_pricing_card {
+    border: 1px solid var(--theme-primary);
+    border-width: 12px 1px 1px 1px;
+}
