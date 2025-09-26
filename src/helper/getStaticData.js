@@ -1,4 +1,5 @@
 import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../assets/SvgComponents";
+import { trainersImage } from "./getStaticImages";
 
 export const staticContent = {
     bannerData: {
@@ -6,7 +7,7 @@ export const staticContent = {
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
         primaryButton: 'Start Free Trial',
         secondaryButton: 'View Plans',
-        secondaryButtonLink:'#pricing'
+        secondaryButtonLink: '#pricing'
 
     },
     amenitiesData: {
@@ -98,5 +99,17 @@ export const staticContent = {
                 ctaButton: 'Get Start'
             },
         ]
-    }
+    },
+    trainersData: {
+        title: 'Meet Our Expert Trainers',
+        description:'we believe that a great fitness journey starts with the right guidance. Our team of professional trainers is the backbone of our gym — experienced, passionate, and 100% dedicated to your transformation.',
+        trainerTextData: [
+            "Certified & Experienced",
+            "Personalized Attention",
+            "Motivators & Mentors",
+            "Holistic Training Approach",
+            "Proven Results"
+        ],
+        trainerImage:trainersImage
+    },
 }

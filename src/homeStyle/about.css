@@ -11,13 +11,15 @@
 .about_grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 24px 50px;
 }
 
 .custom_about_swiper {
     border-radius: var(--radius-3);
     --swiper-pagination-bottom: 4px;
     --swiper-pagination-color: var(--theme-primary);
+     width: 100%;
+    margin: 0 auto;
 
 }
 
@@ -30,16 +32,12 @@
     width: 500px;
 }
 
-.custom_about_swiper {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .custom_about_swiper .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 400px;
     width: 80%;
     border-radius: var(--radius-3);
     overflow: hidden;
@@ -112,5 +110,8 @@
 @media screen and (max-width:767px) {
     .about_grid {
         grid-template-columns: 100%;
+    }
+    .custom_about_swiper .swiper-slide {
+        height: 320px;
     }
 }

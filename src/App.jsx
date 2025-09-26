@@ -3,11 +3,12 @@ import Amenities from './components/Amenities';
 import About from './components/About';
 import PricingPlans from './components/PricingPlans';
 import { staticContent } from './helper/getStaticData';
+import Trainers from './components/Trainers';
 
 
 
 function App() {
-  const { bannerData, amenitiesData, aboutData, pricingData } = staticContent;
+  const { bannerData, amenitiesData, aboutData,trainersData, pricingData } = staticContent;
 
   return (
     <>
@@ -23,10 +24,15 @@ function App() {
         containerClass={'section_padding_top section_padding_bottom'}
         content={aboutData}
       />
+      <Trainers
+        containerClass={'section_padding_bottom'}
+        content={trainersData}
+      />
       <PricingPlans
         containerClass={'section_padding_top section_padding_bottom'}
         content={pricingData}
       />
+
 
     </>
   )
