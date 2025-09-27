@@ -13,7 +13,7 @@ const Amenities = ({ containerClass, content }) => {
                                 <Icon />
                                 <div>
                                     <h3 className='description_variant_1 font_600  mb_1'>{data?.cardTitle}</h3>
-                                    <p className='description_variant_2'>{data?.cardDescription}</p>
+                                    <p className='description_variant_3'>{data?.cardDescription}</p>
                                 </div>
                             </div>
                         )

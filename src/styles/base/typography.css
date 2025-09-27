@@ -14,8 +14,12 @@
   font-size: 18px;
   line-height: 1.4;
 }
-
 .description_variant_2 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.description_variant_3 {
   font-size: 14px;
   line-height: 1.4;
 }
@@ -34,6 +38,10 @@
   }
 
   .description_variant_2 {
+    font-size: 14px;
+  }
+
+  .description_variant_3 {
     font-size: 12px;
   }
 }
