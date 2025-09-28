@@ -56,7 +56,7 @@
         padding: 12px 24px;
     }
 
-    .home_header_drawer .css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+    .home_header_drawer .MuiDrawer-paperAnchorLeft {
         padding: 15px;
         background-color: var(--primary-background) !important;
         width: 280px;
