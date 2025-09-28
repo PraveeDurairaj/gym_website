@@ -7,7 +7,7 @@ export const staticContent = {
         navigationMenus: [
             {
                 text: 'About',
-                link: '#pricing'
+                link: '#about'
             },
             {
                 text: 'Services',

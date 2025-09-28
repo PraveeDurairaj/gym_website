@@ -40,7 +40,7 @@ const PricingPlans = ({ containerClass, content }) => {
                                                 </div>
                                             )
                                         })}
-                                        <Button buttonStyle={'mt_3'} buttonText={data?.ctaButton}/>
+                                        <Button buttonStyle={'mt_3'} isSecondaryButton buttonText={data?.ctaButton}/>
                                     </div>
                                 </div>
                             )

@@ -5,7 +5,7 @@ import { AccordionArrow } from '../assets/SvgComponents'
 
 const Faq = ({ containerClass, content }) => {
     return (
-        <section className={cx(containerClass, 'faq_container')}>
+        <section className={cx(containerClass, 'faq_container')} id='faq'>
             <div className='home_container'>
                 <div className='text_center'>
                     {content?.title && <h2 className='title_h2'>{content?.title}</h2>}

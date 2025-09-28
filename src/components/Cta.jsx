@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 
 const Cta = ({ containerClass, content }) => {
     return (
-        <section className='cta_container_wrapper' >
+        <section className='cta_container_wrapper' id='contact'>
             <div className={cx('home_container', containerClass)}>
                 <div className='cta_container'>
                     {content?.title && <h2 className='title_h2'>{content?.title}</h2>}

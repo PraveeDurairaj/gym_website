@@ -10,7 +10,7 @@ import { about1, about2, about3, about4 } from '../helper/getStaticImages';
 
 const About = ({ containerClass, content }) => {
     return (
-        <section className={cx(containerClass, 'about_container')}>
+        <section className={cx(containerClass, 'about_container')} id='about'>
             <div className='home_container'>
                 <div className='about_grid'>
                     <div>

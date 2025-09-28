@@ -26,11 +26,12 @@ function App() {
         content={amenitiesData}
       />
       <About
-        containerClass={'section_padding_top section_padding_bottom'}
+        containerClass={'section_padding_top'}
         content={aboutData}
       />
       <Cta
         content={ctaData}
+             containerClass={'section_padding_top'}
       />
       <Trainers
         containerClass={'section_padding_bottom section_padding_top'}
