@@ -10,8 +10,10 @@
   --radius-4: 24px;
   --radius-5: 30px;
 
+  /* FAFF00 */
   /* color code */
-  --theme-primary: #FAFF00;
+  --theme-primary: #00ff16;
+  --theme-secondary: #00ff1612;
   --primary-foreground: #FFFFFF;
   --secondary-foreground: #000000;
   --primary-background: #000000;

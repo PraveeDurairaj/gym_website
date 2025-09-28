@@ -20,7 +20,7 @@
     border: 1px solid var(--theme-primary);
     padding: 4px 10px;
     border-radius: 12px;
-    background: #faff0012;
+    background: var(--theme-secondary);
 }
 .trainers_image{
     width: 100%;

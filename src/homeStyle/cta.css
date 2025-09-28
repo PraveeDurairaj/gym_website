@@ -1,0 +1,30 @@
+.cta_container_wrapper{
+    background: var(--secondary-background);
+}
+.cta_container {
+    background: var(--primary-background);
+    padding: 100px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cta_container::before {
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 400px;
+    filter: blur(100px);
+    background: linear-gradient(67deg, var(--theme-primary), #070ee500);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:767px) {
+ .cta_container{
+    padding: 80px 30px;
+ }   
+}

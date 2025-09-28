@@ -71,6 +71,10 @@
   text-align: center;
 }
 
+.flex_Center {
+  justify-content: center;
+}
+
 .font_500 {
   font-weight: 500;
 }

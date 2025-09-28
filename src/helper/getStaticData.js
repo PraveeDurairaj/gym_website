@@ -268,5 +268,12 @@ export const staticContent = {
             }
         ]
 
+    },
+    ctaData: {
+        title: 'Ready to Transform Your Body and Mind?',
+        description: 'Join a community that pushes limits. Burn fat, build muscle, and break through every barrier. Your transformation starts the moment you commit.',
+        primaryButton: 'Join Now',
+        secondaryButton: 'Claim Free Trial',
+        secondaryButtonLink: '#pricing'
     }
 }

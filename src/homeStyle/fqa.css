@@ -6,7 +6,7 @@
 .faq_item_grid_wrapper {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 24px;
+  gap: 18px 24px;
   align-items: flex-start;
   margin-top: 42px;
 }
@@ -25,7 +25,7 @@
 }
 
 .custom_faq_accordion .css-1nnke-MuiButtonBase-root-MuiAccordionSummary-root {
-  padding: 15px !important;
+  padding: 18px 15px !important;
 }
 
 .custom_faq_accordion .css-18x5eyn-MuiAccordionSummary-content {
