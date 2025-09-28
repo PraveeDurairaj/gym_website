@@ -27,4 +27,7 @@
  .cta_container{
     padding: 80px 30px;
  }   
+ .cta_container::before {
+    width: 200px;
+}
 }

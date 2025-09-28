@@ -1,9 +1,9 @@
 import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../assets/SvgComponents";
-import { trainersImage } from "./getStaticImages";
+import { trainersImage, brandLogo } from "./getStaticImages";
 
 export const staticContent = {
     homeHeaderData: {
-        brandLogo: '',
+        brandLogo: brandLogo,
         navigationMenus: [
             {
                 text: 'About',
@@ -302,5 +302,36 @@ export const staticContent = {
         primaryButton: 'Join Now',
         secondaryButton: 'Claim Free Trial',
         secondaryButtonLink: '#pricing'
+    },
+    ServicesData: {
+        title: 'What We Offer',
+        description: "At [Your Gym Name], we offer a wide range of fitness services tailored to help you achieve your health and wellness goals — whether you're just starting out or a seasoned athlete.",
+        cardData: [
+            {
+                title: 'Personal Training',
+                description: 'Work one-on-one with certified personal trainers who tailor every workout to your goals — whether it’s fat loss, muscle gain, or improved athletic performance.',
+                image: 'https://plus.unsplash.com/premium_photo-1726328925053-b6ab1ad8cb9e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            },
+            {
+                title: 'Nutrition Coaching',
+                description: 'Get personalized nutrition guidance, meal planning, and accountability from our certified coaches. We help you build a sustainable, healthy relationship with food.',
+                image: ''
+            },
+            {
+                title: 'Corporate Wellness',
+                description: 'Boost employee productivity and well-being with customized fitness and wellness programs for companies, including on-site classes, webinars, and fitness challenges.',
+                image: ''
+            },
+            {
+                title: 'Yoga',
+                description: "Improve flexibility, build core strength, and find inner balance. Perfect for all levels, these low-impact classes enhance both body and mind.",
+                image: ''
+            },
+            {
+                title: 'Zumba',
+                description: 'Dance your way to fitness with energetic, fun-filled Zumba sessions that make cardio feel like a party.',
+                image: ''
+            },
+        ]
     }
 }

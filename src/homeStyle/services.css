@@ -1,0 +1,60 @@
+.services_card {
+    position: relative;
+    padding: 20px;
+    background: var(--image-background);
+    border-radius: var(--radius-3);
+    min-height: 400px;
+    overflow:hidden ;
+}
+
+.services_card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    object-fit: fill;
+}
+
+.services_content_wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+    background: rgb(27 17 17 / 33%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 0 0 var(--radius-3) var(--radius-3);
+}
+
+.custom_service_swiper .swiper-button-next,
+.custom_service_swiper .swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background: var(--secondary-background);
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-foreground);
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px 2px #dedede4f;
+}
+
+.custom_service_swiper .swiper-button-next {
+    right: 20px;
+}
+
+.custom_service_swiper .swiper-button-prev {
+    left: 20px;
+}
+
+.custom_service_swiper .swiper-button-next>svg,
+.custom_service_swiper .swiper-button-prev>svg {
+    width: 18px;
+    height: 18px;
+}
+.custom_service_swiper .swiper-button-disabled {
+    display: none !important
+}

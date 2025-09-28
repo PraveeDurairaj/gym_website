@@ -12,11 +12,14 @@
 }
 
 .brand_logo_container {
-    background: var(--image-background);
-    border-radius: var(--radius-1);
     height: 40px;
     width: auto;
     max-width: 160px;
+}
+.brand_logo_container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .heder_nav_container {
