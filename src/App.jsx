@@ -1,3 +1,4 @@
+import HomeHeader from './components/HomeHeader';
 import HeroBanner from './components/HeroBanner';
 import Amenities from './components/Amenities';
 import About from './components/About';
@@ -10,12 +11,14 @@ import { staticContent } from './helper/getStaticData';
 
 
 function App() {
-  const { bannerData, amenitiesData, aboutData, trainersData, pricingData, faqData, ctaData } = staticContent;
+  const { bannerData, amenitiesData, aboutData, trainersData, pricingData, faqData, ctaData, homeHeaderData } = staticContent;
 
   return (
     <>
+      <HomeHeader
+        content={homeHeaderData}
+      />
       <HeroBanner
-        containerClass={'section_padding_top'}
         content={bannerData}
       />
       <Amenities

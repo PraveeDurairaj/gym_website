@@ -1,9 +1,10 @@
 import React from 'react';
+import cx from 'classnames';
 import Button from '../ui/Button';
 
 const HeroBanner = ({ containerClass, content }) => {
     return (
-        <section className={containerClass}>
+        <section className={cx(containerClass,'home_banner_top_padding')}>
             <div className='home_container'>
                 <div className='home_banner_grid'>
                     <div>

@@ -2,6 +2,33 @@ import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../asse
 import { trainersImage } from "./getStaticImages";
 
 export const staticContent = {
+    homeHeaderData: {
+        brandLogo: '',
+        navigationMenus: [
+            {
+                text: 'About',
+                link: '#pricing'
+            },
+            {
+                text: 'Services',
+                link: '#services'
+            },
+            {
+                text: 'Pricing',
+                link: '#pricing'
+            },
+            {
+                text: 'FAQ',
+                link: '#faq'
+            },
+            {
+                text: 'Contact',
+                link: '#contact'
+            }
+        ],
+        contactButton: 'Join now'
+
+    },
     bannerData: {
         title: 'Your Local Fitness Destination for Strength & Energy',
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',

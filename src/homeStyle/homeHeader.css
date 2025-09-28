@@ -1,0 +1,70 @@
+.home_header_container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 50px;
+    background-color: var(--primary-background);
+    box-shadow: 0 2px 30px var(--theme-primary);
+    z-index: 10;
+}
+
+.brand_logo_container {
+    background: var(--image-background);
+    border-radius: var(--radius-1);
+    height: 40px;
+    width: auto;
+    max-width: 160px;
+}
+
+.heder_nav_container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.heder_nav_container a {
+    color: var(--primary-foreground);
+    text-decoration: none;
+}
+
+.heder_nav_container a:hover,
+.heder_nav_container a:focus {
+    color: var(--theme-primary);
+}
+
+.web_navigation {
+    display: block;
+}
+
+.mobile_navigation {
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .web_navigation {
+        display: none;
+    }
+
+    .mobile_navigation {
+        display: block;
+    }
+
+    .home_header_container {
+        padding: 12px 24px;
+    }
+
+    .home_header_drawer .css-cyqh1t-MuiPaper-root-MuiDrawer-paper {
+        padding: 15px;
+        background-color: var(--primary-background) !important;
+        width: 280px;
+    }
+
+    .heder_nav_container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+}
