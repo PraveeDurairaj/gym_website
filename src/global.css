@@ -3,5 +3,5 @@
 @import './styles/base/typography.css';
 @import './styles/componentStyle/button.css';
 @import './styles/utils/utils.css';
-@import './homeStyle/homeGlobalStyle.css';
+@import './styles/homeStyle/homeGlobalStyle.css';
 

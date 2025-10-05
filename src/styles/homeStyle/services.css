@@ -1,10 +1,15 @@
+.service_container {
+    position: relative;
+    overflow:hidden ;
+}
+
 .services_card {
     position: relative;
     padding: 20px;
     background: var(--image-background);
     border-radius: var(--radius-3);
     min-height: 400px;
-    overflow:hidden ;
+    overflow: hidden;
 }
 
 .services_card img {
@@ -26,11 +31,14 @@
     -webkit-backdrop-filter: blur(4px);
     border-radius: 0 0 var(--radius-3) var(--radius-3);
 }
+.custom_service_swiper {
+     border-radius: var(--radius-3);
+}
 
 .custom_service_swiper .swiper-button-next,
 .custom_service_swiper .swiper-button-prev {
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
     background: var(--secondary-background);
     border-radius: 50%;
     padding: 5px;
@@ -55,6 +63,7 @@
     width: 18px;
     height: 18px;
 }
+
 .custom_service_swiper .swiper-button-disabled {
     display: none !important
 }

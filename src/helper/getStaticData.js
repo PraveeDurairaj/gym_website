@@ -1,5 +1,5 @@
 import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../assets/SvgComponents";
-import { trainersImage, brandLogo } from "./getStaticImages";
+import { trainersImage, brandLogo,serviceImage1,serviceImage2,serviceImage3,serviceImage4 } from "./getStaticImages";
 
 export const staticContent = {
     homeHeaderData: {
@@ -310,27 +310,27 @@ export const staticContent = {
             {
                 title: 'Personal Training',
                 description: 'Work one-on-one with certified personal trainers who tailor every workout to your goals — whether it’s fat loss, muscle gain, or improved athletic performance.',
-                image: 'https://plus.unsplash.com/premium_photo-1726328925053-b6ab1ad8cb9e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+                image: serviceImage1
             },
             {
                 title: 'Nutrition Coaching',
                 description: 'Get personalized nutrition guidance, meal planning, and accountability from our certified coaches. We help you build a sustainable, healthy relationship with food.',
-                image: ''
+                image: serviceImage2
             },
             {
                 title: 'Corporate Wellness',
                 description: 'Boost employee productivity and well-being with customized fitness and wellness programs for companies, including on-site classes, webinars, and fitness challenges.',
-                image: ''
+                image: serviceImage3
             },
             {
                 title: 'Yoga',
                 description: "Improve flexibility, build core strength, and find inner balance. Perfect for all levels, these low-impact classes enhance both body and mind.",
-                image: ''
+                image: serviceImage4
             },
             {
                 title: 'Zumba',
                 description: 'Dance your way to fitness with energetic, fun-filled Zumba sessions that make cardio feel like a party.',
-                image: ''
+                image: serviceImage2
             },
         ]
     }

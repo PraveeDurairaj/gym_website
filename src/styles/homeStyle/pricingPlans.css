@@ -1,3 +1,21 @@
+.pricing_container {
+    position: relative;
+    overflow:hidden ;
+}
+
+.pricing_container::before {
+    position: absolute;
+    content: '';
+    width: 600px;
+    height: 200px;
+    filter: blur(100px);
+    background: linear-gradient(175deg, var(--theme-primary), #070ee500);
+    top: 0;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%);
+}
+
 .pricing_flex_wrapper {
     display: flex;
     gap: 24px;

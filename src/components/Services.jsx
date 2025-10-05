@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 
 const Services = ({ containerClass, content }) => {
     return (
-        <section className={cx(containerClass, '')}>
+        <section className={cx(containerClass, 'service_container')} id='services'>
             <div className='home_container'>
                 {content?.title && <h2 className='title_h2'>{content?.title}</h2>}
                 {content?.description && <p className='description_variant_1 mt_2'>{content?.description}</p>}
@@ -26,9 +26,13 @@ const Services = ({ containerClass, content }) => {
                                 slidesPerView: 2,
                                 spaceBetween: 20,
                             },
-                            768: {
+                            991: {
                                 slidesPerView: 3,
-                                spaceBetween: 40,
+                                spaceBetween: 30,
+                            },
+                            1200: {
+                                slidesPerView: 4,
+                                spaceBetween: 20,
                             }
                         }}
                     >
