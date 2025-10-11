@@ -6,13 +6,15 @@ import Services from './components/Services';
 import PricingPlans from './components/PricingPlans';
 import Trainers from './components/Trainers';
 import Faq from './components/Faq';
+import Reviews from './components/Reviews';
 import Cta from './components/Cta';
 import { staticContent } from './helper/getStaticData';
 
 
 
 function App() {
-  const { bannerData, amenitiesData, aboutData, trainersData, pricingData, faqData, ctaData, homeHeaderData, ServicesData } = staticContent;
+  const { bannerData, amenitiesData, aboutData, trainersData, pricingData,
+    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData } = staticContent;
 
   return (
     <>
@@ -32,7 +34,7 @@ function App() {
       />
       <Services
         containerClass={'section_padding_top section_padding_bottom'}
-        content={ServicesData}
+        content={servicesData}
       />
       <Cta
         content={ctaData}
@@ -45,6 +47,14 @@ function App() {
       <PricingPlans
         containerClass={'section_padding_top section_padding_bottom'}
         content={pricingData}
+      />
+      <Reviews
+        containerClass={'section_padding_top'}
+        content={reviewsData}
+      />
+      <Cta
+        content={ctaTwoData}
+        containerClass={'section_padding_top'}
       />
       <Faq
         containerClass={'section_padding_top section_padding_bottom'}

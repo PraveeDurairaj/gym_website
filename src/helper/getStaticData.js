@@ -1,5 +1,5 @@
 import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../assets/SvgComponents";
-import { trainersImage, brandLogo,serviceImage1,serviceImage2,serviceImage3,serviceImage4 } from "./getStaticImages";
+import { trainersImage, brandLogo, serviceImage1, serviceImage2, serviceImage3, serviceImage4 } from "./getStaticImages";
 
 export const staticContent = {
     homeHeaderData: {
@@ -16,6 +16,10 @@ export const staticContent = {
             {
                 text: 'Pricing',
                 link: '#pricing'
+            },
+            {
+                text: 'Reviews',
+                link: '#reviews'
             },
             {
                 text: 'FAQ',
@@ -303,7 +307,7 @@ export const staticContent = {
         secondaryButton: 'Claim Free Trial',
         secondaryButtonLink: '#pricing'
     },
-    ServicesData: {
+    servicesData: {
         title: 'What We Offer',
         description: "At [Your Gym Name], we offer a wide range of fitness services tailored to help you achieve your health and wellness goals — whether you're just starting out or a seasoned athlete.",
         cardData: [
@@ -333,5 +337,74 @@ export const staticContent = {
                 image: serviceImage2
             },
         ]
+    },
+    reviewsData: {
+        title: 'What Our Members Are Saying',
+        description: "At [Your Gym Name], nothing speaks louder than the success and satisfaction of our members. Here’s what they have to say about their experience with us:",
+        reviewCardData: [
+            {
+                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                name: 'Alicia M.',
+                reviewDate: '1 week ago',
+                reviewMessage: 'Clean space, well-maintained equipment, and helpful trainers. Highly recommend!'
+            },
+            {
+                logo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                name: 'Marcus Lee',
+                reviewDate: '3 days ago',
+                reviewMessage: 'Great gym environment. Machines are organized and easy to use. Staff is very friendly.'
+            },
+            {
+                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                name: 'Sophia R.',
+                reviewDate: '5 days ago',
+                reviewMessage: 'Spacious gym with plenty of equipment. Love the early morning vibe here.'
+            },
+            {
+                logo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
+                name: 'David P.',
+                reviewDate: '2 weeks ago',
+                reviewMessage: 'Affordable and clean. Trainers are attentive and give great advice.'
+            },
+            {
+                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                name: 'Emily T.',
+                reviewDate: '1 week ago',
+                reviewMessage: 'Everything is organized and clean. Group classes are a huge plus!'
+            },
+            {
+                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                name: 'Jonathan K.',
+                reviewDate: '4 days ago',
+                reviewMessage: 'Fantastic gym! Has everything I need for strength and cardio training.'
+            }
+        ],
+        reviewRestArrayCardData: [
+            {
+                logo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
+                name: 'David P.',
+                reviewDate: '2 weeks ago',
+                reviewMessage: 'Affordable and clean. Trainers are attentive and give great advice.'
+            },
+            {
+                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                name: 'Emily T.',
+                reviewDate: '1 week ago',
+                reviewMessage: 'Everything is organized and clean. Group classes are a huge plus!'
+            },
+            {
+                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                name: 'Jonathan K.',
+                reviewDate: '4 days ago',
+                reviewMessage: 'Fantastic gym! Has everything I need for strength and cardio training.'
+            }
+        ]
+    },
+    ctaTwoData: {
+        title: 'Book Your Free 1-on-1 Session with a Trainer',
+        description: 'Curious about what personalized fitness feels like? Get a free 1-on-1 session with one of our certified trainers — no commitment, just results. Discover how we can help you hit your goals faster and smarter.',
+        primaryButton: 'Book Now',
+        secondaryButton: 'Claim Free Session',
+        secondaryButtonLink: '#free-session'
     }
 }
