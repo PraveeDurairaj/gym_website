@@ -1,6 +1,8 @@
 .pricing_container {
     position: relative;
     overflow:hidden ;
+    background-color: var(--primary-background);
+    z-index: 1;
 }
 
 .pricing_container::before {

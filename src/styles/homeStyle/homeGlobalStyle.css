@@ -9,3 +9,8 @@
 @import './reviews.css';
 @import './fqa.css';
 @import './footer.css';
+
+.service_and_amenities_wrapper {
+    border-radius: 50px 0 50px 0;
+    background: var(--primary-background);
+}

@@ -15,7 +15,7 @@ import { staticContent } from './helper/getStaticData';
 
 function App() {
   const { bannerData, amenitiesData, aboutData, trainersData, pricingData,
-    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData,footerData } = staticContent;
+    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData, footerData } = staticContent;
 
   return (
     <>
@@ -24,19 +24,22 @@ function App() {
       />
       <HeroBanner
         content={bannerData}
-      />
-      <Amenities
-        containerClass={'section_margin_top section_margin_bottom'}
-        content={amenitiesData}
+         containerClass={'section_padding_bottom'}
       />
       <About
         containerClass={'section_padding_top section_padding_bottom'}
         content={aboutData}
       />
-      <Services
-        containerClass={'section_padding_top section_padding_bottom'}
-        content={servicesData}
-      />
+      <div className='service_and_amenities_wrapper'>
+        <Amenities
+          containerClass={'section_padding_top'}
+          content={amenitiesData}
+        />
+        <Services
+          containerClass={'section_padding_top section_padding_bottom'}
+          content={servicesData}
+        />
+      </div>
       <Cta
         content={ctaData}
         containerClass={'section_padding_top'}
@@ -62,8 +65,8 @@ function App() {
         content={faqData}
       />
       <Footer
-       containerClass={'section_padding_top section_padding_bottom'}
-       content={footerData}
+        containerClass={'section_padding_top section_padding_bottom'}
+        content={footerData}
       />
     </>
   )

@@ -14,8 +14,9 @@
     background-size: cover;
 }
 
-.home_banner_top_padding {
-    padding-top: 130px;
+.home_banner_container {
+    padding-top: 150px;
+     background: var(--primary-background);
 }
 
 @media screen and (max-width:991px) {
@@ -26,7 +27,7 @@
     .home_banner_image_Wrapper {
         height: 300px;
     }
-    .home_banner_top_padding {
+    .home_banner_container {
     padding-top: 100px;
 }
 }

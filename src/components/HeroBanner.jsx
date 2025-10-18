@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 
 const HeroBanner = ({ containerClass, content }) => {
     return (
-        <section className={cx(containerClass,'home_banner_top_padding')}>
+        <section className={cx(containerClass,'home_banner_container')}>
             <div className='home_container'>
                 <div className='home_banner_grid'>
                     <div>
