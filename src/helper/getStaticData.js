@@ -1,4 +1,4 @@
-import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon } from "../assets/SvgComponents";
+import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon, FaceBookIcon, InstagramIcon, TwitterIcon, LinkedInIcon } from "../assets/SvgComponents";
 import { trainersImage, brandLogo, serviceImage1, serviceImage2, serviceImage3, serviceImage4 } from "./getStaticImages";
 
 export const staticContent = {
@@ -406,5 +406,67 @@ export const staticContent = {
         primaryButton: 'Book Now',
         secondaryButton: 'Claim Free Session',
         secondaryButtonLink: '#free-session'
+    },
+    footerData: {
+        brandLogo: brandLogo,
+        brandDescription: 'ious about what personalized fitness feels like? Get a free 1-on-1 session with one',
+        navigationLinks: [
+            {
+                title: 'Quick Links',
+                links: [
+                    {
+                        text: 'Services',
+                        link: '#services'
+                    },
+                    {
+                        text: 'Pricing',
+                        link: '#pricing'
+                    },
+                    {
+                        text: 'Contact',
+                        link: '#contact'
+                    }
+                ]
+            },
+            {
+                title: 'Other Links',
+                links: [
+                    {
+                        text: 'Services',
+                        link: '#services'
+                    },
+                    {
+                        text: 'Pricing',
+                        link: '#pricing'
+                    },
+                    {
+                        text: 'Contact',
+                        link: '#contact'
+                    }
+                ]
+            },
+            {
+                linkContainerStyle:'footer_link_icons_container',
+                title: 'Social Links',
+                links: [
+                    {
+                        icon: FaceBookIcon,
+                        link: '#services'
+                    },
+                    {
+                        icon: InstagramIcon,
+                        link: '#services'
+                    },
+                    {
+                        icon: TwitterIcon,
+                        link: '#services'
+                    },
+                    {
+                        icon: LinkedInIcon,
+                        link: '#services'
+                    }
+                ]
+            }
+        ]
     }
 }

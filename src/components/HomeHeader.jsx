@@ -12,14 +12,17 @@ const HomeHeader = ({ content }) => {
 
     const renterMenus = (isMobile) => {
         return (
-            <nav className='heder_nav_container' onClick={isMobile && toggleDrawer(false)} >
-                {content?.navigationMenus?.map((nav, key) => {
-                    return (
-                        <Link href={nav?.link} key={key}>{nav?.text}</Link>
-                    )
-                })}
-                <Button buttonText={content?.contactButton} />
-            </nav>
+            <>
+                <nav className='heder_nav_container' onClick={isMobile && toggleDrawer(false)} >
+                    {content?.navigationMenus?.map((nav, key) => {
+                        return (
+                            <Link href={nav?.link} key={key}>{nav?.text}</Link>
+                        )
+                    })}
+
+                </nav>
+            </>
+
         )
     }
     return (
@@ -30,9 +33,11 @@ const HomeHeader = ({ content }) => {
             <div className='web_navigation'>
                 {renterMenus()}
             </div>
+            <Button buttonStyle={'web_cta_button'} buttonText={content?.contactButton} />
             <div className={'mobile_navigation'} onClick={toggleDrawer(true)}> <MenuIcon /> </div>
             <Drawer open={open} onClose={toggleDrawer(false)} className='home_header_drawer'>
                 {renterMenus(true)}
+                <Button buttonStyle={'mobileCtaButton'} buttonText={content?.contactButton} />
             </Drawer>
         </header>
     )

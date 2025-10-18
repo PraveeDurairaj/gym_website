@@ -1,0 +1,37 @@
+.footer_grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.footer_link_container {
+    display: grid;
+    gap: 8px;
+}
+
+.footer_link_container a,
+.footer_brand_description {
+    color: var(--territory-foreground);
+    text-decoration: none;
+}
+
+.footer_link_icons_container {
+    display: flex;
+    gap: 8px;
+}
+
+.footer_link_icons_container a {
+    color: var(--theme-primary);
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .footer_grid_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:575px) {
+    .footer_grid_wrapper {
+        grid-template-columns: 100%;
+    }
+}

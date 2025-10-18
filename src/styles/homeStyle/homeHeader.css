@@ -16,7 +16,8 @@
     width: auto;
     max-width: 160px;
 }
-.brand_logo_container img{
+
+.brand_logo_container img {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -36,19 +37,31 @@
 .heder_nav_container a:hover,
 .heder_nav_container a:focus {
     color: var(--theme-primary);
+    outline: none !important;
 }
 
 .web_navigation {
     display: block;
 }
 
+.web_cta_button {
+    display: flex;
+}
+
 .mobile_navigation {
     display: none;
 }
 
-@media screen and (max-width:991px) {
-    .web_navigation {
+@media screen and (max-width:1199px) {
+    .web_navigation,
+    .web_cta_button {
         display: none;
+    }
+
+    .heder_nav_container a {
+        padding: 12px 10px;
+        border-bottom: 1px solid var(--primary-border);
+        display: block;
     }
 
     .mobile_navigation {
@@ -60,14 +73,18 @@
     }
 
     .home_header_drawer .MuiDrawer-paperAnchorLeft {
-        padding: 15px;
+        padding: 0;
         background-color: var(--primary-background) !important;
         width: 280px;
     }
 
     .heder_nav_container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: stretch;
+        gap: 0;
     }
-    
+
+    .mobileCtaButton {
+        margin: 18px 12px 0;
+    }
 }

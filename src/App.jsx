@@ -8,13 +8,14 @@ import Trainers from './components/Trainers';
 import Faq from './components/Faq';
 import Reviews from './components/Reviews';
 import Cta from './components/Cta';
+import Footer from './components/Footer';
 import { staticContent } from './helper/getStaticData';
 
 
 
 function App() {
   const { bannerData, amenitiesData, aboutData, trainersData, pricingData,
-    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData } = staticContent;
+    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData,footerData } = staticContent;
 
   return (
     <>
@@ -60,8 +61,10 @@ function App() {
         containerClass={'section_padding_top section_padding_bottom'}
         content={faqData}
       />
-
-
+      <Footer
+       containerClass={'section_padding_top section_padding_bottom'}
+       content={footerData}
+      />
     </>
   )
 }

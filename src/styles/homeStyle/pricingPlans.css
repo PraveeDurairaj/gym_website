@@ -82,7 +82,7 @@
 
 .is_pro_pricing_card {
     border: 1px solid var(--theme-primary);
-    border-width: 12px 1px 1px 1px;
+    border-width: 8px 1px 1px 1px;
 }
 
 @media screen and (max-width:991px) {
