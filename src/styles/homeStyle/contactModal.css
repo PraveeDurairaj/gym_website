@@ -10,8 +10,9 @@
     height: 100%;
     background-color: var(--image-background);
     border-radius: var(--radius-2) 0 0 var(--radius-2);
-    background: url(https://images.unsplash.com/photo-1570829460005-c840387bb1ca?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background: url('../../../public/bannerImage.webp');
     background-size: cover;
+    min-height: 400px;
 }
 
 .MuiDialog-paper {
@@ -56,11 +57,19 @@
     padding: 5px;
     border-radius: var(--radius-1);
 }
+.thanks_page_container{
+    margin: 100px 0;
+    text-align: center;
+    display: grid;
+    gap: 12px;
+
+}
 @media screen and (max-width:575px) {
     .contact_modal_grid {
         grid-template-columns: 100%;
     }
-    .contact_modal_image{
+
+    .contact_modal_image {
         display: none;
     }
 }

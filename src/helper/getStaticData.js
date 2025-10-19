@@ -302,9 +302,10 @@ export const staticContent = {
     ctaData: {
         title: 'Ready to Transform Your Body and Mind?',
         description: 'Join a community that pushes limits. Burn fat, build muscle, and break through every barrier. Your transformation starts the moment you commit.',
-        primaryButton: 'Join Now',
-        secondaryButton: 'Claim Free Trial',
-        secondaryButtonLink: '#pricing'
+        primaryButton: 'Start Today',
+        primaryButtonLink: '#pricing',
+        secondaryButton: 'Claim 7 Days Free Trial',
+        isModal: true
     },
     servicesData: {
         title: 'What We Offer',
@@ -467,5 +468,49 @@ export const staticContent = {
                 ]
             }
         ]
-    }
+    },
+    selectPlanData: [
+         {
+            value: 'Trial plan',
+            label: '7 Days Free Trial',
+        },
+        {
+            value: 'Starter Plan',
+            label: 'Starter Plan - $29',
+        },
+        {
+            value: 'Standard Plan',
+            label: 'Standard Plan - $49',
+        },
+        {
+            value: 'Premium Plan',
+            label: 'Premium Plan - $79',
+        }
+    ],
+    selectServiceData: [
+        {
+            value: 'Personal Training',
+            label: 'Personal Training',
+        },
+        {
+            value: 'Nutrition Coaching',
+            label: 'Nutrition Coaching',
+        },
+        {
+            value: 'Corporate Wellness',
+            label: 'Corporate Wellness',
+        },
+        {
+            value: 'Yoga',
+            label: 'Yoga',
+        },
+        {
+            value: 'Zumba',
+            label: 'Zumba',
+        },
+        {
+            value: 'Others',
+            label: 'Others',
+        },
+    ]
 }

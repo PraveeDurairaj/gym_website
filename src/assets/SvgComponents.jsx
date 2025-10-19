@@ -1,6 +1,6 @@
 export const EquipmentIcon = ({ className }) => {
     return (
-        <svg fill="currentColor" className={className} height="24px" width="24px" viewBox="0 0 285 285" xml:space="preserve">
+        <svg fill="currentColor" className={className} height="24px" width="24px" viewBox="0 0 285 285" xmlSpace="preserve">
 
             <path d="M142.5,0C63.921,0,0,63.934,0,142.5S63.921,285,142.5,285S285,221.066,285,142.5S221.079,0,142.5,0z M142.5,271.424
 			c-71.092,0-128.924-57.841-128.924-128.924S71.408,13.576,142.5,13.576S271.424,71.417,271.424,142.5

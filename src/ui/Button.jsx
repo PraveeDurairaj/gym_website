@@ -6,7 +6,7 @@ const Button = ({ buttonText, buttonType, buttonStyle, navigationPath, buttonAct
         <>
             {buttonType == 'link' ?
                 <a href={navigationPath} className={cx(buttonStyle, isSecondaryButton ? 'secondary_button' : 'primary_button')} target={target}>{buttonText}</a> :
-                <button className={cx(buttonStyle, isSecondaryButton ? 'secondary_button' : 'primary_button')} onClick={buttonAction}>{buttonText} </button>}
+                <button type={buttonType}  className={cx(buttonStyle, isSecondaryButton ? 'secondary_button' : 'primary_button')} onClick={buttonAction}>{buttonText} </button>}
         </>
     )
 }

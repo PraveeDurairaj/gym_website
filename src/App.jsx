@@ -58,10 +58,6 @@ function App() {
         containerClass={'section_padding_top'}
         content={reviewsData}
       />
-      <Cta
-        content={ctaTwoData}
-        containerClass={'section_padding_top'}
-      />
       <Faq
         containerClass={'section_padding_top section_padding_bottom'}
         content={faqData}

@@ -11,9 +11,9 @@ const Footer = ({ containerClass, content }) => {
                         {content?.brandLogo && <img src={content?.brandLogo} alt='brand_logo' className='mb_2' />}
                         {content?.brandDescription && <p className='description_variant_2 footer_brand_description'>{content?.brandDescription}</p>}
                     </div>
-                    {content?.navigationLinks?.map((list) => {
+                    {content?.navigationLinks?.map((list,index) => {
                         return (
-                            <div>
+                            <div key={index}>
                                 <p className='description_variant_1 mb_2'>{list?.title}</p>
                                 <div className={list?.linkContainerStyle ?? "footer_link_container"}>
                                     {list?.links?.map((item, key) => {
