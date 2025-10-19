@@ -1,3 +1,7 @@
+// helpers
+import { staticContent } from './helper/getStaticData';
+import { FormProvider } from './helper/FormContent';
+// components
 import HomeHeader from './components/HomeHeader';
 import HeroBanner from './components/HeroBanner';
 import Amenities from './components/Amenities';
@@ -9,22 +13,20 @@ import Faq from './components/Faq';
 import Reviews from './components/Reviews';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
-import { staticContent } from './helper/getStaticData';
-
 
 
 function App() {
-  const { bannerData, amenitiesData, aboutData, trainersData, pricingData,
-    faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData, footerData } = staticContent;
+  const { bannerData, amenitiesData, aboutData, trainersData, pricingData } = staticContent;
+  const { faqData, ctaData, homeHeaderData, servicesData, reviewsData, ctaTwoData, footerData } = staticContent
 
   return (
-    <>
+    <FormProvider>
       <HomeHeader
         content={homeHeaderData}
       />
       <HeroBanner
         content={bannerData}
-         containerClass={'section_padding_bottom'}
+        containerClass={'section_padding_bottom'}
       />
       <About
         containerClass={'section_padding_top section_padding_bottom'}
@@ -68,7 +70,7 @@ function App() {
         containerClass={'section_padding_top section_padding_bottom'}
         content={footerData}
       />
-    </>
+    </FormProvider>
   )
 }
 

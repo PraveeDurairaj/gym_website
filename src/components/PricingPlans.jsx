@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import cx from 'classnames';
 import Button from '../ui/Button';
 import { CloseIcon, TickIcon } from '../assets/SvgComponents';
+import { FormContext } from '../helper/FormContent';
 
 const PricingPlans = ({ containerClass, content }) => {
+    const { handleModalShow } = useContext(FormContext);
     return (
-        <section className={cx(containerClass,'pricing_container')} id='pricing'>
+        <section className={cx(containerClass, 'pricing_container')} id='pricing'>
             <div className='home_container'>
                 <div className='text_center'>
                     {content?.title && <h2 className='title_h2'>{content?.title}</h2>}
@@ -13,21 +15,21 @@ const PricingPlans = ({ containerClass, content }) => {
                 </div>
                 <div className='pricing_flex_wrapper'>
                     {
-                        content?.cardData?.map((data,key) => {
+                        content?.cardData?.map((data, key) => {
                             return (
-                                <div className={cx('pricing_card',data?.isProPlan && 'is_pro_pricing_card')} key={key}>
+                                <div className={cx('pricing_card', data?.isProPlan && 'is_pro_pricing_card')} key={key}>
                                     <div className='pricing_plan_type'>{data?.packageType}</div>
                                     <div className="description_variant_1">
                                         {data?.price && <span className='mrp_price'>{data?.price}</span>}
                                         {data?.offerPrice && <span className="offer_price"> {data?.offerPrice} </span>}
                                         {data?.planPeriod && <span className="plan_period">{data?.planPeriod}</span>}
                                     </div>
-                                    <div className='pricing_line'/>
+                                    <div className='pricing_line' />
                                     <div className="feature_grid_wrapper">
                                         {data?.planCovertFeatures?.map((feature, innerKey) => {
                                             return (
                                                 <div className="features_item_flex" key={innerKey}>
-                                                    <TickIcon/>
+                                                    <TickIcon />
                                                     {feature}
                                                 </div>
                                             )
@@ -35,12 +37,12 @@ const PricingPlans = ({ containerClass, content }) => {
                                         {data?.planNotCovertFeatures?.map((feature, innerKey) => {
                                             return (
                                                 <div className="features_item_flex" key={innerKey}>
-                                                    <CloseIcon/>
+                                                    <CloseIcon />
                                                     {feature}
                                                 </div>
                                             )
                                         })}
-                                        <Button buttonStyle={'mt_3'} isSecondaryButton buttonText={data?.ctaButton}/>
+                                        <Button buttonStyle={'mt_3'} isSecondaryButton buttonText={data?.ctaButton} buttonAction={handleModalShow} />
                                     </div>
                                 </div>
                             )

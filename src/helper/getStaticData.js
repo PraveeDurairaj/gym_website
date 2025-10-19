@@ -30,7 +30,7 @@ export const staticContent = {
                 link: '#contact'
             }
         ],
-        contactButton: 'Join now'
+        contactButton: 'Get Start'
 
     },
     bannerData: {
@@ -72,7 +72,6 @@ export const staticContent = {
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
         description2: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
     },
-
     pricingData: {
         title: 'Our Transparent Pricing',
         description: 'Choose the perfect plan to access top-rated fitness classes and modern amenities',
@@ -446,7 +445,7 @@ export const staticContent = {
                 ]
             },
             {
-                linkContainerStyle:'footer_link_icons_container',
+                linkContainerStyle: 'footer_link_icons_container',
                 title: 'Social Links',
                 links: [
                     {
