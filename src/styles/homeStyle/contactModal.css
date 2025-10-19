@@ -14,7 +14,7 @@
     background-size: cover;
 }
 
-.css-1peo4km-MuiPaper-root-MuiDialog-paper {
+.MuiDialog-paper {
     border-radius: var(--radius-3) !important;
     max-height: 100% !important;
 }
@@ -42,11 +42,11 @@
     cursor: pointer;
 }
 
-.css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+.css-iz33ar.Mui-focused .MuiOutlinedInput-notchedOutline {
     border-color: var(--theme-primary) !important;
 }
 
-.css-hvjq6j-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+.css-phs6im.Mui-focused {
     color: var(--secondary-foreground) !important;
 }
 

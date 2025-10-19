@@ -36,7 +36,7 @@ export const staticContent = {
     bannerData: {
         title: 'Your Local Fitness Destination for Strength & Energy',
         description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
-        primaryButton: 'Start Free Trial',
+        primaryButton: 'Start 7 Days Free Trial',
         secondaryButton: 'View Plans',
         secondaryButtonLink: '#pricing'
 
@@ -78,9 +78,9 @@ export const staticContent = {
         cardData: [
             {
                 packageType: 'Starter Plan',
-                price: '$30',
-                offerPrice: 'Free',
-                planPeriod: '7 days',
+                price: '$50',
+                offerPrice: '$29',
+                planPeriod: 'per month',
                 planCovertFeatures: [
                     'Access to amenities',
                     'Unlimited group classes',
@@ -95,8 +95,8 @@ export const staticContent = {
             },
             {
                 packageType: 'Premium',
-                price: '$80',
-                offerPrice: '$49',
+                price: '$100',
+                offerPrice: '$79',
                 planPeriod: 'per month',
                 planCovertFeatures: [
                     'Access to amenities',
@@ -113,8 +113,8 @@ export const staticContent = {
             },
             {
                 packageType: 'Standard',
-                price: '$50',
-                offerPrice: '$29',
+                price: '$80',
+                offerPrice: '$49',
                 planPeriod: 'per month',
                 planCovertFeatures: [
                     'Access to amenities',

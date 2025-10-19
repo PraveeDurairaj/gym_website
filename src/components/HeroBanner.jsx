@@ -18,9 +18,7 @@ const HeroBanner = ({ containerClass, content }) => {
                             <Button buttonText={content?.primaryButton} buttonAction={handleModalShow} />
                         </div>
                     </div>
-                    <div className='home_banner_image_Wrapper'>
-
-                    </div>
+                    <div className='home_banner_image_Wrapper'/>
                 </div>
 
             </div>
