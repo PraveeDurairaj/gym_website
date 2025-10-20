@@ -30,12 +30,12 @@ export const staticContent = {
                 link: '#contact'
             }
         ],
-        contactButton: 'Get Start'
+        contactButton: 'Get Start Today'
 
     },
     bannerData: {
-        title: 'Your Local Fitness Destination for Strength & Energy',
-        description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
+        title: 'Stronger Body Clearer Mind Better You',
+        description: "Train like a pro with elite equipment, high-intensity programs, and expert trainers who deliver real results. Whether you're building strength, burning fat, or pushing past limits  we’re here to fuel your transformation.",
         primaryButton: 'Start 7 Days Free Trial',
         secondaryButton: 'View Plans',
         secondaryButtonLink: '#pricing'
@@ -470,7 +470,7 @@ export const staticContent = {
         ]
     },
     selectPlanData: [
-         {
+        {
             value: 'Trial plan',
             label: '7 Days Free Trial',
         },
