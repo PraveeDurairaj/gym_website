@@ -1,6 +1,10 @@
 .about_container {
     background-color: var(--secondary-background);
     color: var(--secondary-foreground);
+    position: relative;
+    border-radius: 50px;
+    margin-top: -50px;
+    z-index: 2;
 }
 
 .about_container .title_h2,
@@ -18,7 +22,7 @@
     border-radius: var(--radius-3);
     --swiper-pagination-bottom: 4px;
     --swiper-pagination-color: var(--theme-primary);
-     width: 100%;
+    width: 100%;
     margin: 0 auto;
 
 }
@@ -111,6 +115,7 @@
     .about_grid {
         grid-template-columns: 100%;
     }
+
     .custom_about_swiper .swiper-slide {
         height: 320px;
     }

@@ -25,13 +25,12 @@
     position: relative;
     padding-top: 150px;
     background: var(--primary-background);
-    min-height: 700px;
+    min-height: 750px;
     display: grid;
     align-items: center;
     background: url('../../../public/bannerImage2.avif');
     background-size: cover;
     z-index: 1;
-    border-radius: 0 0 var(--radius-5) var(--radius-5);
     overflow: hidden;
 }
 
