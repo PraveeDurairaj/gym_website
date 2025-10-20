@@ -34,11 +34,11 @@ const HomeHeader = ({ content }) => {
             <div className='web_navigation'>
                 {renterMenus()}
             </div>
-            <Button buttonStyle={'web_cta_button'} buttonText={content?.contactButton} />
+            <Button buttonStyle={'web_cta_button'} buttonText={content?.contactButton} buttonType={'link'} navigationPath={'#pricing'} />
             <div className={'mobile_navigation'} onClick={toggleDrawer(true)}> <MenuIcon /> </div>
             <Drawer open={open} onClose={toggleDrawer(false)} className='home_header_drawer'>
                 {renterMenus(true)}
-                <Button buttonStyle={'mobileCtaButton'} buttonText={content?.contactButton} />
+                <Button buttonStyle={'mobileCtaButton'} buttonText={content?.contactButton} buttonType={'link'} navigationPath={'#pricing'} />
             </Drawer>
         </header>
     )
