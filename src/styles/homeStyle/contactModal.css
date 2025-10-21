@@ -53,17 +53,19 @@
 
 .contact_brand_logo {
     margin: auto;
-    background: var(--primary-background);
-    padding: 5px;
     border-radius: var(--radius-1);
+    max-width: 180px;
+    height: 100px;
 }
-.thanks_page_container{
+
+.thanks_page_container {
     margin: 100px 0;
     text-align: center;
     display: grid;
     gap: 12px;
 
 }
+
 @media screen and (max-width:575px) {
     .contact_modal_grid {
         grid-template-columns: 100%;

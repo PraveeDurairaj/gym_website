@@ -11,7 +11,7 @@
     border-radius: var(--radius-2);
     height: 400px;
     background: url('../../../public/bannerImage.webp');
-    background: url('../../../public/bannerImage2.avif');
+    background: url('/public/bannerImage2.avif');
     background-size: cover;
 }
 
@@ -23,12 +23,12 @@
 /* banner layout */
 .home_banner_layout_container {
     position: relative;
-    padding-top: 150px;
+    padding-top: 100px;
     background: var(--primary-background);
     min-height: 750px;
     display: grid;
     align-items: center;
-    background: url('../../../public/bannerImage2.avif');
+    background: url('/public/bannerImage2.avif');
     background-size: cover;
     z-index: 1;
     overflow: hidden;
@@ -79,7 +79,7 @@
     align-items: center;
     padding: 8px 12px;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .banner_tick_icon{
     color: #2cdb2c;

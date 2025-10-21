@@ -5,15 +5,17 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 50px;
+    padding: 8px 50px;
     background-color: var(--primary-background);
     z-index: 10;
 }
 
 .brand_logo_container {
-    height: 40px;
+    height: 65px;
     width: auto;
     max-width: 160px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .brand_logo_container img {
@@ -50,8 +52,14 @@
 .mobile_navigation {
     display: none;
 }
-
+@media screen and (max-width:991px) {
+    .brand_logo_container{
+        height: 50px;
+    }
+    
+}
 @media screen and (max-width:1199px) {
+
     .web_navigation,
     .web_cta_button {
         display: none;
@@ -68,7 +76,7 @@
     }
 
     .home_header_container {
-        padding: 12px 24px;
+        padding: 8px 15px;
     }
 
     .home_header_drawer .MuiDrawer-paperAnchorLeft {

@@ -31,8 +31,8 @@ const Services = ({ containerClass, content }) => {
                                 spaceBetween: 30,
                             },
                             1200: {
-                                slidesPerView: 4,
-                                spaceBetween: 20,
+                                slidesPerView: 3,
+                                spaceBetween: 30,
                             }
                         }}
                     >

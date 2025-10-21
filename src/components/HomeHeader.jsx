@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Drawer, Link } from '@mui/material';
 import Button from '../ui/Button';
-import { MenuIcon } from '../assets/SvgComponents';
+import {  MenuIcon } from '../assets/SvgComponents';
 import ContactModal from './ContactModal';
 import { FormContext } from '../helper/FormContent';
 

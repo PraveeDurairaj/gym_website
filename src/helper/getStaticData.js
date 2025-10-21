@@ -1,5 +1,5 @@
 import { MesurementIcon, EquipmentIcon, FitnessIcon, GymTimeIcon, FaceBookIcon, InstagramIcon, TwitterIcon, LinkedInIcon } from "../assets/SvgComponents";
-import { trainersImage, brandLogo, serviceImage1, serviceImage2, serviceImage3, serviceImage4 } from "./getStaticImages";
+import { trainersImage, brandLogo, serviceImage1, serviceImage2, serviceImage3, serviceImage4, serviceImage5, reviewImage1, reviewImage2, reviewImage3, reviewImage4 } from "./getStaticImages";
 
 export const staticContent = {
     homeHeaderData: {
@@ -334,7 +334,7 @@ export const staticContent = {
             {
                 title: 'Zumba',
                 description: 'Dance your way to fitness with energetic, fun-filled Zumba sessions that make cardio feel like a party.',
-                image: serviceImage2
+                image: serviceImage5
             },
         ]
     },
@@ -343,37 +343,37 @@ export const staticContent = {
         description: "At [Your Gym Name], nothing speaks louder than the success and satisfaction of our members. Here’s what they have to say about their experience with us:",
         reviewCardData: [
             {
-                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                logo: reviewImage1,
                 name: 'Alicia M.',
                 reviewDate: '1 week ago',
                 reviewMessage: 'Clean space, well-maintained equipment, and helpful trainers. Highly recommend!'
             },
             {
-                logo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                logo: reviewImage2,
                 name: 'Marcus Lee',
                 reviewDate: '3 days ago',
                 reviewMessage: 'Great gym environment. Machines are organized and easy to use. Staff is very friendly.'
             },
             {
-                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                logo: reviewImage4,
                 name: 'Sophia R.',
                 reviewDate: '5 days ago',
                 reviewMessage: 'Spacious gym with plenty of equipment. Love the early morning vibe here.'
             },
             {
-                logo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
+                logo: reviewImage2,
                 name: 'David P.',
                 reviewDate: '2 weeks ago',
                 reviewMessage: 'Affordable and clean. Trainers are attentive and give great advice.'
             },
             {
-                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                logo: reviewImage1,
                 name: 'Emily T.',
                 reviewDate: '1 week ago',
                 reviewMessage: 'Everything is organized and clean. Group classes are a huge plus!'
             },
             {
-                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                logo: reviewImage2,
                 name: 'Jonathan K.',
                 reviewDate: '4 days ago',
                 reviewMessage: 'Fantastic gym! Has everything I need for strength and cardio training.'
@@ -381,19 +381,19 @@ export const staticContent = {
         ],
         reviewRestArrayCardData: [
             {
-                logo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXZhdGFyfGVufDB8fDB8fHww',
+                logo: reviewImage3,
                 name: 'David P.',
                 reviewDate: '2 weeks ago',
                 reviewMessage: 'Affordable and clean. Trainers are attentive and give great advice.'
             },
             {
-                logo: 'https://plus.unsplash.com/premium_photo-1664536392779-049ba8fde933?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D',
+                logo: reviewImage4,
                 name: 'Emily T.',
                 reviewDate: '1 week ago',
                 reviewMessage: 'Everything is organized and clean. Group classes are a huge plus!'
             },
             {
-                logo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fHww',
+                logo: reviewImage3,
                 name: 'Jonathan K.',
                 reviewDate: '4 days ago',
                 reviewMessage: 'Fantastic gym! Has everything I need for strength and cardio training.'
@@ -409,62 +409,33 @@ export const staticContent = {
     },
     footerData: {
         brandLogo: brandLogo,
-        brandDescription: 'ious about what personalized fitness feels like? Get a free 1-on-1 session with one',
+        brandDescription: "Curious about how personalized training can transform your fitness journey? Start with a free 1-on-1 session and feel the difference.",
         navigationLinks: [
             {
                 title: 'Quick Links',
                 links: [
-                    {
-                        text: 'Services',
-                        link: '#services'
-                    },
-                    {
-                        text: 'Pricing',
-                        link: '#pricing'
-                    },
-                    {
-                        text: 'Contact',
-                        link: '#contact'
-                    }
+                    { text: "Programs", link: "#services" },
+                    { text: "Membership", link: "#pricing" },
+                    { text: "Contact", link: "#contact" },
+                    { text: "About", link: "#about" },
                 ]
             },
             {
-                title: 'Other Links',
+                title: 'Explore',
                 links: [
-                    {
-                        text: 'Services',
-                        link: '#services'
-                    },
-                    {
-                        text: 'Pricing',
-                        link: '#pricing'
-                    },
-                    {
-                        text: 'Contact',
-                        link: '#contact'
-                    }
+                    { text: "Trainers", link: "#trainers" },
+                    { text: "Testimonials", link: "#reviews" },
+                    { text: "FAQ", link: "#faq" },
                 ]
             },
             {
                 linkContainerStyle: 'footer_link_icons_container',
                 title: 'Social Links',
                 links: [
-                    {
-                        icon: FaceBookIcon,
-                        link: '#services'
-                    },
-                    {
-                        icon: InstagramIcon,
-                        link: '#services'
-                    },
-                    {
-                        icon: TwitterIcon,
-                        link: '#services'
-                    },
-                    {
-                        icon: LinkedInIcon,
-                        link: '#services'
-                    }
+                    { icon: FaceBookIcon, link: "https://facebook.com" },
+                    { icon: InstagramIcon, link: "https://instagram.com" },
+                    { icon: TwitterIcon, link: "https://twitter.com" },
+                    { icon: LinkedInIcon, link: "https://linkedin.com" }
                 ]
             }
         ]
