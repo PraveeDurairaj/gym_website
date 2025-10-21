@@ -69,8 +69,8 @@ export const staticContent = {
     },
     aboutData: {
         title: 'About Our Gym',
-        description: 'Find the perfect workout at a top-rated fitness center near you. From strength training and fat-burning workouts to personal training and group fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
-        description2: 'Find the perfect workout at a top-rated fitness classes, we’ve got everything you need to stay motivated and achieve lasting results.',
+        description: 'Looking for the perfect place to get fit? Our gym is dedicated to helping you achieve your health and fitness goals in a supportive, motivating environment. We offer personalized training programs, high-energy group classes, and a wide variety of workouts designed to challenge every fitness level.',
+        description2: 'Whether you’re aiming to build strength, burn fat, increase endurance, or simply stay active, our expert trainers are here to guide you every step of the way. Enjoy state-of-the-art equipment, a friendly community, and flexible membership options that fit your lifestyle.',
     },
     pricingData: {
         title: 'Our Transparent Pricing',
@@ -309,7 +309,7 @@ export const staticContent = {
     },
     servicesData: {
         title: 'What We Offer',
-        description: "At [Your Gym Name], we offer a wide range of fitness services tailored to help you achieve your health and wellness goals — whether you're just starting out or a seasoned athlete.",
+        description: "At FitZone, we make fitness simple, fun, and effective. Explore personal coaching, group sessions, and a variety of workouts tailored to your goals. no matter your experience level. Your journey to better health starts here.",
         cardData: [
             {
                 title: 'Personal Training',
@@ -340,7 +340,7 @@ export const staticContent = {
     },
     reviewsData: {
         title: 'What Our Members Are Saying',
-        description: "At [Your Gym Name], nothing speaks louder than the success and satisfaction of our members. Here’s what they have to say about their experience with us:",
+        description: "At FitZone, the results and satisfaction of our members speak for themselves. Here’s what they have to say about their fitness journey and experience with us:",
         reviewCardData: [
             {
                 logo: reviewImage1,
