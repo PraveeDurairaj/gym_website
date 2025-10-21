@@ -58,7 +58,7 @@ const ContactModal = ({ show, handleClose }) => {
                             <p>Your form was submitted successfully.</p>
                         </div> :
                         <>
-                            <img src={brandLogo} className='contact_brand_logo' />
+                            <img src={brandLogo} className='contact_brand_logo' loading="lazy" alt='brand logo' />
                             <TextField
                                 label="Name"
                                 variant="outlined"

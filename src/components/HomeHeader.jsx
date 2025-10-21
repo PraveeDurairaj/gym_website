@@ -29,7 +29,7 @@ const HomeHeader = ({ content }) => {
         <header className='home_header_container glass-card'>
             <ContactModal show={show} handleClose={handleModalShow} />
             <div className='brand_logo_container'>
-                <img src={content?.brandLogo} alt='brand_logo' />
+                <img src={content?.brandLogo} alt='brand_logo' loading="lazy"/>
             </div>
             <div className='web_navigation'>
                 {renterMenus()}

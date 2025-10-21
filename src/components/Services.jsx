@@ -40,7 +40,7 @@ const Services = ({ containerClass, content }) => {
                             return (
                                 <SwiperSlide className='slide' key={index}>
                                     <div className='services_card'>
-                                        <img src={data?.image} />
+                                        <img src={data?.image} alt={data?.title} loading="lazy"/>
                                         <div className='services_content_wrapper'>
                                             <p className='description_variant_1 mb_1 font_600'>{data?.title}</p>
                                             <p className='description_variant_3'>{data?.description}</p>

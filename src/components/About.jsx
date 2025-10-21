@@ -28,7 +28,7 @@ const About = ({ containerClass, content }) => {
                         {[about1, about2, about3, about4]?.map((data, index) => {
                             return (
                                 <SwiperSlide className='slide' key={index}>
-                                    <img src={data} alt='about image' />
+                                    <img src={data} alt='about image' loading="lazy" />
                                 </SwiperSlide>
                             )
                         })}

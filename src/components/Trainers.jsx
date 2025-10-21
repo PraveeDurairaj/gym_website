@@ -17,7 +17,7 @@ const Trainers = ({ containerClass, content }) => {
                             })}
                         </div>
                     </div>
-                    {content?.trainerImage && <img src={content?.trainerImage} className='trainers_image' alt='trainers' />}
+                    {content?.trainerImage && <img src={content?.trainerImage} className='trainers_image' alt='trainers' loading="lazy"/>}
                 </div>
             </div>
         </section>
